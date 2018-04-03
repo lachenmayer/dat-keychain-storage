@@ -1,12 +1,19 @@
 {
   "name": "dat-keychain-storage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Store your Dat archive's secret key in the macOS keychain.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["dat", "macos", "keychain", "hyperdrive"],
   "author": "harry lachenmayer <harrylachenmayer@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dat-storage": "^1.0.4",
+    "random-access-keychain": "^1.0.0"
+  },
+  "devDependencies": {
+    "hyperdrive": "^9.12.3"
+  }
 }
